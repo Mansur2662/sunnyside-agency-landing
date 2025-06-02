@@ -1,0 +1,716 @@
+*,*::before,
+*::after{
+    margin: 0; 
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+   color: #818498;
+}
+.ryd{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.hatcha{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.nav{
+    padding-top: 60px;
+}
+.nav-flex{
+    display: flex;
+    align-items: center;
+}
+.Sunnyside{
+    margin-right: auto;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-item{
+    display: inline-block;
+    padding: 0 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    border: none;
+    border-radius: 15px;
+    font-family: "Fraunces", serif;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    font-size: 80px;
+    color: white;
+    font-family: "Fraunces", serif;
+    letter-spacing: 12px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+.якум-flex{
+    display: flex;
+  
+}
+.якум-content{
+  padding: 0 10vh;
+  margin: 100px 0 0 0;
+ 
+
+
+    
+}
+.якум-content p{
+    margin: 60px 0 60px 0;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+}
+
+.якум-content h2{
+font-size: 60px;
+font-weight: 900;
+font-family: "Fraunces", serif;
+line-height: 1;
+color: #23303e;
+}
+.img1{
+    flex: 0 0 50%;
+}
+.img-1{
+    flex: 0 0 50%;
+width: 100%;
+display: block;
+}
+.btn{
+border: none;
+font-family: "Fraunces", serif;
+font-weight: 900;
+font-size: 18px;
+padding: 0;
+} 
+
+.дуюм-flex{
+    display: flex;
+}
+.img2{
+    flex: 0 0 50%;
+}
+.img-2{
+flex: 0 0 50%;
+width: 100%;
+display: block;
+}
+.дуюм-content{
+    padding: 0 10vh;
+    margin: 100px 0 0 0;
+}
+.дуюм-content p{
+    margin: 60px 0 60px 0;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+}
+
+.дуюм-content h2{
+font-size: 60px;
+font-weight: 900;
+font-family: "Fraunces", serif;
+line-height: 1;
+color: #23303e;
+}
+.btn2{
+    border: none;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0;}
+
+
+
+
+
+
+    .design {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70vh; 
+        width: 100%;
+      }
+      
+      .card {
+        position: relative;
+        width: 50%;  
+        height: 100%;  
+        overflow: hidden;
+      }
+      
+   .img3{
+    flex: 0 0 50%;
+   }
+   .img-3{
+    flex: 0 0 50%;
+width: 100%;
+display: block;
+   }
+      
+      .text3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        color: white;
+        text-align: center;
+        padding: 10px;
+        
+    
+      }
+      
+      .text3 h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: #19536b;
+        padding: 80px;
+        font-family: "Fraunces", serif;
+
+      }
+      
+      .text3 p {
+        font-size: 20px;
+        color: #25564b;
+        font-family: "Montserrat", serif;
+      }
+
+  
+
+
+
+
+
+      
+.foto-odam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .foto-odam img{
+    width: 6rem;
+    border-radius: 50%;
+    height: 6rem;
+    margin-bottom: 3rem;
+  
+  }
+  .h1{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    margin-bottom: 30px;
+    padding: 100px;
+color: #5a636c;
+  }
+
+  .yak,.du,.se{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pp1,.pp2,.pp3{
+    font-size:20px;
+    color: #5A636C;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Montserrat", serif;
+  }
+  .cherniy{
+    color: black;
+    font-family: "Fraunces", serif;
+    font-size: 20px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+  .galery-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    padding: 100px 0 0 0 ;
+  }
+  .imgg1,.imgg2,.imgg3,.imgg4{
+    width: 100%;
+    display: block;
+  }
+
+
+
+
+
+
+
+.footer{
+    height: 50vh;
+    background-color: #458c7e;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    gap: 50px;   
+}
+.li{
+    margin-bottom: 80px;
+    text-decoration: none;
+    color: #2a564c;
+    font-size: 20px;
+    
+}
+.footer-ohirash{
+    display: flex;
+   
+    
+    color: black;
+   
+    gap: 50px;
+}
+.hh5{
+    font-size: 3rem;
+    color: #245140;
+    margin: 80px 0;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+}
+
+
+.button10{
+    display: none;
+}
+
+.якум-м{
+  display: none;
+}
+.дуюм-м{
+  display:none;
+}
+.design-м{
+  display: none;
+}
+.design-мм{
+  display: none;
+}
+.gallery-м{
+  display: none;
+}
+.gallery-мм{
+  display: none;
+}
+.header-м{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .button{
+    display: none;
+   }
+   .nav-list{
+    display: none;
+   }
+
+   .якум{
+    display: none;
+   }
+   .дуюм{
+    display: none;
+   }
+   .design-м{
+    display: none;
+   }
+   .якум-м{
+    display: block;
+   }
+   .header-м{
+    display: block;
+   }
+   .design{
+    display: none;
+   }
+   .gallery{
+    display: none;
+   }
+   .header{
+    display: none;
+   }
+  
+   .gallery-м{
+    display: block;
+   }
+
+   .якум-flex-м{
+    display: flex;
+  
+}
+
+
+
+
+.header-м{
+  background-image: url(images/mobile/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.hatcha-м{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.nav-м{
+  padding-top: 60px;
+}
+.nav-flex-м{
+  display: flex;
+  align-items: center;
+
+}
+
+.Sunnyside-м{
+  margin-right: auto;
+}
+
+.button-м{
+  border: none;
+  border-radius: 15px;
+  font-family: "Fraunces", serif;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+}
+.text-м{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 80px;
+  color: white;
+  font-family: "Fraunces", serif;
+  letter-spacing: 12px;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+
+
+
+
+.якум-content-м{
+  padding: 0 10vh;
+  margin: 100px 0 0 0;
+ 
+
+
+    
+}
+.якум-content-м p{
+    margin: 60px 0 60px 0;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    text-align: center;
+}
+
+.якум-content-м h2{
+font-size: 60px;
+font-weight: 900;
+font-family: "Fraunces", serif;
+line-height: 1;
+color: #23303e;
+text-align: center;
+}
+.btn-м{
+  border: none;
+font-family: "Fraunces", serif;
+font-weight: 900;
+font-size: 18px;
+padding: 0;
+margin: 0 0 60px 0;
+}
+
+
+
+
+.дуюм-м{
+  display: block;
+ }
+
+ .дуюм-flex-м{
+  display: flex;
+
+}
+.дуюм-content-м{
+padding: 0 10vh;
+margin: 100px 0 0 0;
+}
+.дуюм-content-м p{
+  margin: 60px 0 60px 0;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  text-align: center;
+}
+
+.дуюм-content-м h2{
+font-size: 60px;
+font-weight: 900;
+font-family: "Fraunces", serif;
+line-height: 1;
+color: #23303e;
+text-align: center;
+}
+.btn2-м{
+border: none;
+font-family: "Fraunces", serif;
+font-weight: 900;
+font-size: 18px;
+padding: 0;
+margin: 0 0 60px 0;
+}
+
+
+
+.design-м {
+  display: flex;
+  
+ 
+  height: 100vh; 
+  width: 200%;
+  
+}
+.design-мм{
+  display: flex;
+  margin: 0 0 60px 0;
+ 
+  height: 100vh; 
+  width: 200%;
+  
+}
+
+.card-м {
+  position: relative;
+  width: 50%;  
+  height: 100%;  
+  overflow: hidden;
+}
+
+
+.img-3-м{
+
+width: 100%;
+display: block;
+}
+.text3-м {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+  text-align: center;
+  padding: 10px;
+  
+
+}
+
+.text3-м h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #19536b;
+  padding: 80px;
+  font-family: "Fraunces", serif;
+
+}
+
+.text3-м p {
+  font-size: 20px;
+  color: #25564b;
+  font-family: "Montserrat", serif;
+}
+
+
+
+
+
+
+ 
+  
+  .foto-odam {
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 0 60px 0;
+  }
+
+  .foto-odam img {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  
+  .h1 {
+    font-size: 1.1rem;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+
+ 
+  .yak, .du, .se {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+
+  .pp1, .pp2, .pp3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .cherniy {
+    font-size: 16px;
+  }
+
+
+
+
+
+
+  .galery-images-м {
+   display: flex;
+   
+  }
+  .gallery-мм{
+    display: flex;
+    margin: -20px 0 0 0 ;
+  }
+
+  .imgg1-м, .imgg2-м {
+   
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .imgg3-м, .imgg4-м{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+  footer{
+    margin: -20px 0 0 0 ;
+  }
+ .hh5{
+  font-size: 40px;
+ }
+
+ .li{
+  color: #2a564c;
+  font-size: 25px;
+ }
+
+
+
+
+}
